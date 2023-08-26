@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">RegistrationApp</string>
+    <string-array name="programme">
+        <item>ITD</item>
+        <item>Civil</item>
+        <item>Architecture</item>
+        <item>Water Engg.</item>
+        <item>Mechanical</item>
+        <item>ECE</item>
+        <item>ICE</item>
+        <item>Geology</item>
+        <item>Electrical</item>
+    </string-array>
+    <string-array name="Academic_Year">
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+    </string-array>
+        <string-array name="Year">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+        <item>Fifth Year</item>
+        <item>Sixth Year</item>
+        <item>Seventh Year</item>
+    </string-array>
+
+    <string-array name="Semester">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+    </string-array>
+</resources>

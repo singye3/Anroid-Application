@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8036454F">
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:text="Registration"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/stdID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:layout_centerHorizontal="true"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#D3D3D3"
+
+            android:hint="Student ID"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stdID"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="10dp"
+            android:background="#D3D3D3"
+
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/programme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:paddingHorizontal="100dp"
+            android:paddingVertical="10dp"
+            android:background="#D3D3D3"
+
+            android:gravity="center"
+            android:hint="Programme"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/academic_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/programme"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+
+            android:gravity="center"
+            android:hint="Academic Year"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/academic_year"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+
+            android:gravity="center"
+            android:hint="Year"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/year"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+
+            android:gravity="center"
+            android:hint="Semester"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semester"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="69dp"
+
+            android:layout_toStartOf="@+id/reset"
+            android:background="#80554A4A"
+            android:paddingHorizontal="30dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/semester"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="122dp"
+            android:background="#80554A4A"
+
+            android:paddingHorizontal="30dp"
+            android:text="Reset"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
