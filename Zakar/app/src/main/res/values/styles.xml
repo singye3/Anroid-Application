@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary branding color -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Dark variant of the primary color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Accent color that can be used for buttons, etc. -->
+    <color name="colorAccent">#FF4081</color>
+</resources>
+
