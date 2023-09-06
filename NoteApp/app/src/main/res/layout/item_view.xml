@@ -13,13 +13,17 @@
         android:id="@+id/titleoutput"
         android:textSize="20dp"
         android:textColor="@color/black"
-        tools:text="My title"/>
+        android:textAlignment="center"
+        tools:text="My Title"
+        android:paddingVertical="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/descriptionoutput"
         android:layout_below="@id/titleoutput"
         android:textColor="#393939"
+        android:textSize="18dp"
+        android:paddingTop="5dp"
         tools:text="My long long long descrption"/>
 
 
