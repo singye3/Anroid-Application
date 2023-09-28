@@ -2,7 +2,9 @@ package com.example.noteapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -49,6 +51,11 @@ public class AddNoteActivity extends AppCompatActivity {
         String content = noteContentEditText.getText().toString();
 
         int position = getIntent().getIntExtra("position", -1);
+
+        SharedPreferences sp = getSharedPreferences("share",Context.MODE_PRIVATE);
+        SharedPreferences.Editor edit = sp.edit();
+        edit.putString("title",title);
+        edit.putString("description",content);
 
         if (position != -1) {
             // If position is valid, update the existing note in the ArrayList
