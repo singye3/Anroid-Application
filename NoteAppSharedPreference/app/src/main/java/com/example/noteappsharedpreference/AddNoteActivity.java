@@ -1,4 +1,4 @@
-package com.example.noteapp;
+package com.example.noteappsharedpreference;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.Activity;
